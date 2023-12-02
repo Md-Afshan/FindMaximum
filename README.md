@@ -21,6 +21,8 @@ def max_marks(marks):
     marks.sort()
     large=marks[-1]
     return large
+
+
 ```
 
 ii)	# To find the maximum marks using the list method max().
@@ -33,6 +35,8 @@ RegisterNumber: 23010114
 def max_marks(marks):
     i=max(marks)
     return i
+
+    
 ```
 
 iii) # To find the maximum marks without using builtin functions.
@@ -48,6 +52,8 @@ def max_marks(list1):
         if i>max1:
             max1=i
     return max1
+
+
 ```
 ## Sample Input and Output
 ![output](./img/max_marks1.jpg) 
